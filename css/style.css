@@ -1,0 +1,90 @@
+/* design for body  */
+body { 
+    background-color: white;
+     font-family: 'Poppins', sans-serif;
+     margin: 0px 0px;
+     padding: 0px 0px;
+ }
+ 
+ /* main section design  */
+ .cash-flow{
+     width: 70%;
+     margin: 20px auto;
+     padding: 20px 40px 25px 40px;
+     border: 2px solid #858299;
+     border-radius: 5px;
+ }
+ 
+ .heading{
+     color: rgb(3, 83, 83);
+ }
+ 
+ .accountent{
+     height: 500px;
+     width: 550px;
+     border: 1px solid white;
+     border-radius: 5px;
+ }
+ 
+ .calculation-part{
+     background-color: #d8d6d6;
+     padding: 20px 20px 3px 20px;
+     border: 1px solid #d8d6d6;
+     border-radius: 5px;
+ }
+ 
+ button{
+     padding: 5px 20px;
+     border: 1px solid #d8d6d6;
+     font-weight: 800;
+     border-radius: 5px;
+     background-color: rgb(5, 184, 109);  
+ }
+ 
+ #saving-btn{
+     padding: 4px 20px; 
+     height: 33px;
+  }
+ 
+ input{
+     width: 120px;
+     height: 30px;
+     border: 2px solid #858299;
+     border-radius: 5px;
+ }
+ 
+ #saving-input{
+     width: 60px;
+ }
+ 
+ p{
+     font-size: 16px;
+     font-weight: 600;
+ }
+ /* media query for responsive very small device  */
+ @media only screen and (max-width: 480px)  {
+     .cash-flow{
+         width: 100%;
+         margin: 20px auto;
+        padding: 0;
+     }   
+     .calculation-part{
+         width: 90%;
+         margin: 0 auto;
+         background-color: #d8d6d6;
+         padding: 20px 20px 3px 20px;
+         border: 1px solid #d8d6d6;
+         border-radius: 5px;
+    }
+    }
+
+ @media only screen and (max-width: 420px)  {
+  .cash-flow{
+      width: 90%;
+  }   
+ }
+ @media only screen and (max-width: 320px)  {
+  .cash-flow{
+      width: 98%;
+  }   
+ }
